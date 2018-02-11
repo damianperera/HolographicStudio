@@ -22,47 +22,45 @@ The left and right arrow keys walk through all available parameters.
 The up and down arrow keys change the value of the parameter.
 Hold shift while pressing up and down to increase the stepsize.
 
-###Clip Radius
+* ### Clip Radius
 Clips the scene when the distance to the center is larger than this value.
 
-###Clip CenterX   
+* ### Clip CenterX   
 Moves the clip center to left or right wrt to first Kinect in the ensemble.
 
-###Clip CenterY      
+* ### Clip CenterY      
 Moves the clip center up or down wrt to first Kinect in the ensemble.
 
-####Clip CenterZ   
+* #### Clip CenterZ   
 Moves the clip forward or backward down wrt to first Kinect in the ensemble.
 
-###Clip Floor        
+* ### Clip Floor        
 Sets the bottom Z for clipping.
 
-###Clip Ceiling 
+* ### Clip Ceiling 
 Sets the top Z for clipping. 
 
-###Apply Holographic Effect
+* ### Apply Holographic Effect
 Toggle the shader to apply a holographic effect.
 
-###Animate         
-Automatically rotates the camera .
+* ### Animate         
+Automatically rotates the camera. For each Kinect in the scene there will be a parameter with the index of the camera appended.
 
-For each Kinect in the scene there will be a parameter with the index of the camera appended:
-
-###LiveDepth#     
+* ### LiveDepth     
 Toggles live depth updates.
 
-###LiveColor#     
+* ### LiveColor 
 Toggles live color updates.
 
-###FilterDepth# 
+* ### FilterDepth
 Toggles depth filtering.
 
-###SpatialSigma# 
+* ### SpatialSigma
 The spatial sigma for depth filtering.
 
-###IntensitySigma# 
+* ### IntensitySigma
 The intensity for depth filtering.
 
-###DepthThreshold# 
+* ### DepthThreshold
 Threshold for discarding triangles based on steepness.
 

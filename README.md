@@ -1,14 +1,14 @@
 # Building the application
-The project depends on the ProEnsembleCalibrationLib that is part of RoomAlive Toolkit. https://github.com/Kinect/RoomAliveToolkit Download and build that project first and update the reference to that library.
+The project depends on the _ProEnsembleCalibrationLib_ that is part of [RoomAlive Toolkit](https://github.com/Kinect/RoomAliveToolkit). Download and build that project first and update the reference to that library.
 Both this project and RoomAliveToolkit reference SharpDX libraries. Make sure the used libraries reference the same version of these libs to prevent conflicts.
 
 # Calibration 
-The application needs a calibration XML file that can be created with the CalibrateEnsemble application that is part of RoomAlive Toolkit. For more details read the instructions on the RoomAlive Toolkit project page. 
+The application needs a calibration XML file that can be created with the _CalibrateEnsemble_ application that is part of RoomAlive Toolkit. For more details read the instructions on the RoomAlive Toolkit project page. 
 
-HolographicStudio needs to be configured to find the resulting calibration file. Use the EnsembleConfigurationFile application configuration entry to point it to the location of your calibration file. Note that is expects the file to be placed in a location under the Public Documents folder.
+HolographicStudio needs to be configured to find the resulting calibration file. Use the _EnsembleConfigurationFile_ application configuration entry to point it to the location of your calibration file. Note that it expects the file to be placed in a location under the Public Documents folder.
 
 # Running Holographic Studio
-Before running the application make sure that the KinectServer is running on each PC with a Kinect attached.
+Before running the application make sure that the _KinectServer_ is running on each PC with a Kinect attached.
 
 ## Controlling the camera
 

@@ -1,6 +1,6 @@
-# Building the application
-The project depends on the _ProEnsembleCalibrationLib_ that is part of [RoomAlive Toolkit](https://github.com/Kinect/RoomAliveToolkit). Download and build that project first and update the reference to that library.
-Both this project and RoomAliveToolkit reference SharpDX libraries. Make sure the used libraries reference the same version of these libs to prevent conflicts.
+# Before you Build
+- The project depends on the _ProEnsembleCalibrationLib_ that is part of the [RoomAlive Toolkit](https://github.com/Kinect/RoomAliveToolkit), download and build that project first and update the reference to that library.
+- Both this project and RoomAliveToolkit reference the same _SharpDX_ libraries, make sure that the used libraries reference the same version of these libs to prevent conflicts.
 
 # Calibration 
 The application needs a calibration XML file that can be created with the _CalibrateEnsemble_ application that is part of RoomAlive Toolkit. For more details read the instructions on the RoomAlive Toolkit project page. 
@@ -12,15 +12,15 @@ Before running the application make sure that the _KinectServer_ is running on e
 
 ## Controlling the camera
 
-Use the W, A, S, D, keys to change the orientation of the camera.
-The E and C keys can be used to change the zoom factor.
+Use the *W*, *A*, *S*, *D*, keys to change the orientation of the camera.
+The *E* and *C* keys can be used to change the zoom factor.
 
 ## Tweaking parameters
 
-Use the T key to toggle the display of a parameter editor.
-The left and right arrow keys walk through all available parameters.
-The up and down arrow keys change the value of the parameter.
-Hold shift while pressing up and down to increase the stepsize.
+Use the *T* key to toggle the display of a parameter editor.
+The *←* and *→* arrow keys walk through all available parameters.
+The *↑* and *↓* arrow keys change the value of the parameter.
+Hold *shift* while pressing *↑* and *↓* keys to increase the stepsize.
 
 * ### Clip Radius
 Clips the scene when the distance to the center is larger than this value.
